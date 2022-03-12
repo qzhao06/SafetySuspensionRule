@@ -1,1 +1,1 @@
-
+In early phase clinical studies, when toxicity event is frequently observed, study should be suspended. In the Bayesian framework, posterior probability of toxicity event is used to measure how likely a toxicity event would happen. In practice, clinicians need to know how many toxicity events (suspension rule) would trigger the suspension of study. In this project, a suspension rule is derived based on posterior probability of toxicity event.
