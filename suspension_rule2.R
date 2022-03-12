@@ -41,7 +41,7 @@ for (t in 1:6){
 out
 colnames(out)<-c("True Toxicity Rate","Suspension Prob.","N, 25% Percentile","N, 50% Percentile", "N, 75% Percentile")
 row.names(out)<-NULL
-write.csv(out,'C:/Users/qzhao/OneDrive - Nektar Therapeutics/documents/Suspension Rules/Outputs/Table8.csv')
+write.csv(out,'./Outputs/Table8.csv')
 
 
 
@@ -71,7 +71,7 @@ bds
 sus.bds<-data.frame(cbind(c(1:80), bds))
 colnames(sus.bds)<-c("N Treated","Suspension Boundaries")
 row.names(sus.bds)<-NULL
-write.csv(sus.bds,'C:/Users/qzhao/OneDrive - Nektar Therapeutics/documents/Suspension Rules/Outputs/Table7.csv')
+write.csv(sus.bds,'./Outputs/Table7.csv')
 
 
 
