@@ -4,6 +4,8 @@
 ##   sample size
 #####################################
 
+## Reference:
+
 ######## Part1: Derive Suspension Boundary #######
 ## Suspension Rule: P[p_tox|Data]>0.95
 
